@@ -22,6 +22,10 @@ docker-compose up --build
 docker-compose up -d --force-recreate --build container_name
 ```
 
+App should run at http://localhost:8080
+
+PhpMyAdmin should run at http://localhost:8001
+
 ## Shut it down
 ```bash
 docker-compose down
